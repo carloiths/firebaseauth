@@ -226,7 +226,10 @@ public class MainActivity extends AppCompatActivity {
     // Actionbar/Toolbar home/up button opens/close the drawer
     // Allowing ActionBarToggle to handle the events.
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+
+
+
+     public boolean onOptionsItemSelected(MenuItem item) {
         if(drawerToggle.onOptionsItemSelected(item)) {
             return true;
         }

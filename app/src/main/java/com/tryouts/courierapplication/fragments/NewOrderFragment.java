@@ -62,7 +62,7 @@ public class NewOrderFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         mPresenter = new NewOrderPresenter(this);
-        mPresenter.setGMapsUrl(getString(R.string.google_maps_key));
+        // mPresenter.setGMapsUrl(getString(R.string.google_maps_key));
         mPresenter.sendFragmentActivityToInteractor();
 
         mDistanceView = (TextView) view.findViewById(R.id.neworder_textview_summary);
